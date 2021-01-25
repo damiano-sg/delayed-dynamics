@@ -1,9 +1,15 @@
 # delayed-dynamics
-**Title of my Master thesis:** The effect of Delayed Dynamics on the Stability of Ecosystems.
+**Title of my Master thesis:** The effect of Delayed Dynamics on the Stability of Ecosystems. _add link_
+**Abstract:**
+Differential Equations and random matrix theory have found applications in many fields, ranging from physics, number theory and ecology. Fifty years ago, in a seminal article entitled "Will a Large Complex System be Stable?", Robert May showed that increasingly large or complex ecological networks have negligibly small probability to be stable. However, from field studies in ecology experimental evidences point on the opposite direction: large and complex ecosystems seem to be stable. This apparent contradiction is known as the Complexity-Stability paradox. May and other scientists analyzed large networks in which species interact at random and studied analytically the asymptotic stability of such systems as a function of the number of species and the number of interactions through the use of random matrix theory.
+My master thesis is aimed to critically review these results and show how the introduction of delay in ecosystem population dynamics may have a strong impact
+on ecosystem dynamics and change important aspects of the Complexity-Stability paradox.
 
 
 ## Files
 1. _RMG.py_ used to generate different types of random matrices
+
+
 
 
 This should answer a short list of basic questions:
