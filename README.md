@@ -1,5 +1,9 @@
 # delayed-dynamics
-The effect of Delayed Dynamics on the Stability of Ecosystems
+**Title of my Master thesis:** The effect of Delayed Dynamics on the Stability of Ecosystems.
+
+
+## Files
+1. _RMG.py_ used to generate different types of random matrices
 
 
 This should answer a short list of basic questions:
