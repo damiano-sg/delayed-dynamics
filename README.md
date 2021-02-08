@@ -11,6 +11,7 @@ on ecosystem dynamics and change important aspects of the Complexity-Stability p
 
 ## Files
 1. _RMG.py_ used to generate different types of random matrices
+2. _Distribution_eigenvalues.ipynb_ different eigenvalues distributions
 
 
 
