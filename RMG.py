@@ -4,7 +4,7 @@ import numpy.random as rd
 import scipy.linalg as LA
 import scipy.sparse.linalg as sLA
 
-#CLASS THAT GENERATE THE RANDOM MATRIX
+#CLASS USED TO GENERATE RANDOM MATRICES
 
 class RMG :
     def __init__(self, S,C,d,mu,sigma,pdf='normal'):
