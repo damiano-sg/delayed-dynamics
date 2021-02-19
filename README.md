@@ -6,11 +6,10 @@
 Differential Equations and random matrix theory have found applications in many fields, ranging from physics, number theory and ecology. Fifty years ago, in a seminal article entitled "Will a Large Complex System be Stable?", Robert May showed that increasingly large or complex ecological networks have negligibly small probability to be stable. However, from field studies in ecology experimental evidences point on the opposite direction: large and complex ecosystems seem to be stable. This apparent contradiction is known as the Complexity-Stability paradox. May and other scientists analyzed large networks in which species interact at random and studied analytically the asymptotic stability of such systems as a function of the number of species and the number of interactions through the use of random matrix theory.
 My master thesis is aimed to critically review these results and show how the introduction of delay in ecosystem population dynamics may have a strong impact on ecosystem dynamics and change important aspects of the Complexity-Stability paradox.
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
 **Objectives:**
 The main objective of this repository is to characterize the stability of the linearized system of Delay Differential Equations (DDEs) in the form:
-$$\dot{\vec{x}} (t) = A\vec{x} (t) +B\vec{x} (t-T)$$ 
+<img src="https://render.githubusercontent.com/render/math?math=$\color{w}$\dot{\vec{x}} (t) = A\vec{x} (t) +B\vec{x} (t-T)">
 We study how different delays change the distribution of the effective eigenvalues $\lambda$ of a generic DDE. In particular how the rightmost of them (the one which tell us if the system is stable or not) varies as a function of the parameters.
 
 What we call eigevalues are the solutions of the characteristic equation obtained from the DDE by using the Linear Stability Analysis, i.e. by substituting solutions of the form: $\vec{x} (t) = e^{\lambda t} \vec{v}$ in the DDE obtaining an equation for $\lambda$.
