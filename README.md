@@ -9,10 +9,12 @@ My master thesis is aimed to critically review these results and show how the in
 
 **Objectives:**
 The main objective of this repository is to characterize the stability of the linearized system of Delay Differential Equations (DDEs) in the form:
-<img src="https://render.githubusercontent.com/render/math?math=$\color{w}$\dot{\vec{x}} (t) = A\vec{x} (t) +B\vec{x} (t-T)">
-We study how different delays change the distribution of the effective eigenvalues $\lambda$ of a generic DDE. In particular how the rightmost of them (the one which tell us if the system is stable or not) varies as a function of the parameters.
 
-What we call eigevalues are the solutions of the characteristic equation obtained from the DDE by using the Linear Stability Analysis, i.e. by substituting solutions of the form: $\vec{x} (t) = e^{\lambda t} \vec{v}$ in the DDE obtaining an equation for $\lambda$.
+<img src="https://render.githubusercontent.com/render/math?math=\dot{\vec{x}} (t) = A\vec{x} (t) +B\vec{x} (t-T)">
+
+We study how different delays change the distribution of the effective eigenvalues lambda of a generic DDE. In particular how the rightmost of them (the one which tell us if the system is stable or not) varies as a function of the parameters.
+
+What we call eigevalues are the solutions of the characteristic equation obtained from the DDE by using the Linear Stability Analysis, i.e. by substituting solutions of the form: <img src="https://render.githubusercontent.com/render/math?math=\vec{x} (t) = e^{\lambda t} \vec{v}"> in the DDE obtaining an equation for lambda.
 
 Each of the following files is a jupyter notebook which displays the different characteristics which enter in the description of the stability of an ecosystem described by the linearized DDE above.
 
